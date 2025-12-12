@@ -1,0 +1,19 @@
+{% extends 'tasks/base.html' %}
+{% block content %}
+<div class="glass-card col-md-4 mx-auto text-white">
+    <h2 class="text-center mb-3">Login</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="username" class="form-control mb-2" placeholder="Username">
+        <input type="password" name="password" class="form-control mb-3" placeholder="Password">
+
+        <button class="btn btn-light w-100">Login</button>
+    </form>
+
+    <p class="text-center mt-3">
+        Don't have an account?
+        <a href="/register/" class="text-warning">Register</a>
+    </p>
+</div>
+{% endblock %}

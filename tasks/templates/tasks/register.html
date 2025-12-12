@@ -1,0 +1,18 @@
+{% extends 'tasks/base.html' %}
+{% block content %}
+<div class="glass-card col-md-5 mx-auto text-white">
+    <h2 class="text-center mb-3">Create Account</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button class="btn btn-light w-100 mt-2">Register</button>
+    </form>
+
+    <p class="text-center mt-3">
+        Already have an account?
+        <a href="/login/" class="text-warning">Login</a>
+    </p>
+</div>
+{% endblock %}
