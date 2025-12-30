@@ -1,6 +1,13 @@
 # todo_project
 https://todo-project-v7mg.onrender.com/
 
+<img width="1917" height="873" alt="image" src="https://github.com/user-attachments/assets/228ff5df-482c-4a7a-aa7c-e10be559c545" />
+
+<img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/bf01bb6a-9290-4360-822c-45276beb1120" />
+
+<img width="1918" height="873" alt="image" src="https://github.com/user-attachments/assets/1b5064a7-a8aa-43a0-88ce-f1eab58dfa2e" />
+
+
 PROJECT REPORT
 Title
 
